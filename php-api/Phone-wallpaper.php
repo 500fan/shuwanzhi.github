@@ -1,13 +1,13 @@
 <?php
 //存有美图链接的文件名img.txt
-$filename = "Phone-wallpaper.txt";
+$filename = Phone-wallpaper.txt;
 if(!file_exists($filename)){
     die('文件不存在');
 }
  
 //从文本获取链接
 $pics = [];
-$fs = fopen($filename, "r");
+$fs = fopen($filename, r);
 while(!feof($fs)){
     $line=trim(fgets($fs));
     if($line!=''){
@@ -28,6 +28,6 @@ case 'json':
     die(json_encode(['pic'=>$pic]));
  
 default:
-    die(header("Location: $pic"));
+    die(header(Location: $pic));
 }
 ?>
