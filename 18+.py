@@ -23,7 +23,7 @@ def img_resize(image_path):
 
 if __name__ == '__main__':
     filelist = os.listdir(file_path)
-    with open('E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\Phone-wallpaper.txt','w') as f:
+    with open('E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\18+.txt','w') as f:
         for file in filelist:
             img_resize(file)
             f.write(web_path+file+'\n')
