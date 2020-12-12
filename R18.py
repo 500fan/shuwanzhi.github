@@ -8,8 +8,8 @@ Created on Sat Dec 12 15:20:20 2020
 import os
 import cv2
 
-file_path = "E:\GitHub Desktop\GitHub\pictruebed\R-18\\"
-web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/R-18/"
+file_path = "E:\GitHub Desktop\GitHub\pictruebed\R18\\"
+web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/R18/"
 
 
 def img_resize(image_path):
@@ -30,7 +30,7 @@ def img_resize(image_path):
 
 if __name__ == '__main__':
     filelist = os.listdir(file_path)
-    with open('E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\R-18.txt','w') as f:
+    with open('E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\R18.txt','w') as f:
         for file in filelist:
             img_resize(file)
             f.write(web_path+file+'\n')
