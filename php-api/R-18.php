@@ -1,6 +1,6 @@
 <?php
 //存有美图链接的文件名img.txt
-$filename = 18+.txt;
+$filename = R-18.txt;
 if(!file_exists($filename)){
     die('文件不存在');
 }
