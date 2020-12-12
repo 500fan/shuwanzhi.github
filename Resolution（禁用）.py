@@ -2,8 +2,7 @@ import os
 import cv2
 
 file_path = "E:\GitHub Desktop\GitHub\pictruebed\Resolution\\"
-web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/Resolution"
-
+web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/Resolution/"
 
 def img_resize(image_path):
     image = cv2.imread(file_path+image_path)
@@ -12,14 +11,18 @@ def img_resize(image_path):
     width_new = 180
     height_new = 180
     # 判断图片的长宽比率
+
     if width / height >= width_new / height_new:
-       img = cv2.resize(image, (width_new, int(height * width_new / width)))
+       img = cv2.resize(image,)
     else:
        img = cv2.resize(image, (int(width * height_new / height), height_new))
+
+
     if ".jpg" in image_path:
         cv2.imwrite(file_path+image_path, img, [int(cv2.IMWRITE_JPEG_QUALITY), 100])
     elif ".png" in image_path:
         cv2.imwrite(file_path+image_path, img, [cv2.IMWRITE_PNG_COMPRESSION, 0])
+
 
 if __name__ == '__main__':
     filelist = os.listdir(file_path)

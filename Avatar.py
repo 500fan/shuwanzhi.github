@@ -2,7 +2,7 @@ import os
 import cv2
 
 file_path = "E:\GitHub Desktop\GitHub\pictruebed\Avatar\\"
-web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/Avatar"
+web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/Avatar/"
 
 def img_resize(image_path):
     image = cv2.imread(file_path+image_path)
@@ -25,4 +25,5 @@ if __name__ == '__main__':
     with open('E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\Avatar.txt','w') as f:
         for file in filelist:
             img_resize(file)
+
             f.write(web_path+file+'\n')
