@@ -1,5 +1,4 @@
 import os
-import cv2
 
 file_path = "E:\GitHub Desktop\GitHub\picturebad\PC-wallpaper\\"
 web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/PC-wallpaper/"

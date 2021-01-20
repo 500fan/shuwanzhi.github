@@ -6,7 +6,7 @@ Created on Sat Dec 12 15:20:20 2020
 """
 
 import os
-import cv2
+
 
 file_path = "E:\GitHub Desktop\GitHub\pictruebed\R18\\"
 web_path = "https://cdn.jsdelivr.net/gh/anderson-ryen/pictruebed/R18/"

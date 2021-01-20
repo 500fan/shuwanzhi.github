@@ -6,7 +6,6 @@ Created on Wed Jan 13 17:20:54 2021
 """
 
 import os
-import cv2
 
 #文件的绝对路径
 file_path = "E:\GitHub Desktop\GitHub\mimi\img\\"
