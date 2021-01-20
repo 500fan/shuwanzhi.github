@@ -19,11 +19,18 @@ warehouse_path = "mimi"
 img_path = "img"
 #合并path
 api_path = os.path.join( web_path + user_path + "/" + warehouse_path + "/" + img_path + "/")
-print(api_path)
 
+print("")
+print("前缀预览: " + api_path)
+print("")
+print("=" *50)
+print("mimi已完成")
+print("=" *50)
+print("")
 
 if __name__ == '__main__':
     filelist = os.listdir(file_path)
-    with open(r"E:\GitHub Desktop\GitHub\mimi\api\mimi.txt",'w') as f:
+    with open(r"E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\mimi.txt",'w') as f:
         for file in filelist:
             f.write(api_path+file+'\n')
+
