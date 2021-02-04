@@ -9,13 +9,13 @@ import os
 
 
 #文件的绝对路径
-file_path = "E:\GitHub Desktop\GitHub\picturebad\Pad-wallpaper\\"
+file_path = "E:\GitHub Desktop\GitHub\picbad\PC-wallpaper\\"
 #CDN前缀
 web_path = "https://cdn.jsdelivr.net/gh/"
 #GITHUB账户名
 user_path = "anderson-ryen"
 #仓库名
-warehouse_path = "pictruebed"
+warehouse_path = "picbad"
 #仓库内文件夹
 img_path = "PC-wallpaper"
 #合并path

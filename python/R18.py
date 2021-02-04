@@ -9,15 +9,15 @@ import os
 
 
 #文件的绝对路径
-file_path = "E:\GitHub Desktop\GitHub\picturebad\R18\\"
+file_path = "E:\GitHub Desktop\GitHub\R18\img\\"
 #CDN前缀
 web_path = "https://cdn.jsdelivr.net/gh/"
 #GITHUB账户名
 user_path = "anderson-ryen"
 #仓库名
-warehouse_path = "pictruebed"
+warehouse_path = "R18"
 #仓库内文件夹
-img_path = "R18"
+img_path = "img"
 #合并path
 api_path = os.path.join( web_path + user_path + "/" + warehouse_path + "/" + img_path + "/")
 

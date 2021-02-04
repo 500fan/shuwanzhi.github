@@ -8,13 +8,13 @@ Created on Wed Jan 13 17:20:54 2021
 import os
 
 #文件的绝对路径
-file_path = "E:\GitHub Desktop\GitHub\picturebad\Avatar\\"
+file_path = "E:\GitHub Desktop\GitHub\picbad\Avatar\\"
 #CDN前缀
 web_path = "https://cdn.jsdelivr.net/gh/"
 #GITHUB账户名
 user_path = "anderson-ryen"
 #仓库名
-warehouse_path = "pictruebed"
+warehouse_path = "picbad"
 #仓库内文件夹
 img_path = "Avatar"
 #合并path
@@ -26,6 +26,7 @@ print("前缀预览: " + api_path)
 print("")
 print("=" *50)
 print("Avatar已完成")
+print("地址预览：E:\GitHub Desktop\GitHub\Pictruebed-API\php-api\Avatar.txt")
 print("=" *50)
 print("")
 
