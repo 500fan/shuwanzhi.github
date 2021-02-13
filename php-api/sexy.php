@@ -1,6 +1,6 @@
 <?php
 //存有美图链接的文件名img.txt
-$filename = "sexy-21-2-13.txt";
+$filename = "sexy.txt";
 if(!file_exists($filename)){
     die('文件不存在');
 }

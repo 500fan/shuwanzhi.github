@@ -1,6 +1,6 @@
 <?php
 //存有美图链接的文件名img.txt
-$filename = "pipixia-20-1-12.txt";
+$filename = "pipixia.txt";
 if(!file_exists($filename)){
     die('文件不存在');
 }
