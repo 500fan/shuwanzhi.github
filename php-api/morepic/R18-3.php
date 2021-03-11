@@ -1,5 +1,5 @@
 <?php
-$arr=file('R18.txt');
+$arr=file('R18-3.txt');
 $n=count($arr)-1;
 for ($i=1;$i<=1;$i++){
   $x=rand(0,$n);
